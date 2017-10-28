@@ -1,4 +1,4 @@
-LiquidCrystal lcd(12, 11, 5, 4,3, 2);
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 void setup() {
   pinMode(0, INPUT);
@@ -7,11 +7,9 @@ void setup() {
 }
 
 void loop() {
-  int state = digitalRead(0);
-
   lcd.setCursor(0, 0);
 
-  if (state == HIGH) {
+  if (digitalRead(0) == HIGH) {
     lcd.print("ON");
     digitalWrite(9, HIGH);
   } else {
