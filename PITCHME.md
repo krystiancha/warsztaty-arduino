@@ -31,11 +31,10 @@ Napisana za nas funkcja `main()`
 
 ---
 
-```c++
-pinMode(pin, mode)
-```
+##pinMode(pin, mode)
 
 *pin*: numer pinu (od **0** do **13** oraz od **A0** do **A5**)
+
 *mode*: **INPUT** (wejście), **OUTPUT** (wyjście) lub **INPUT_PULLUP**
 
 ---
