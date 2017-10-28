@@ -1,4 +1,13 @@
-```c++
+---?code=code/blink.ino
+
+@[1,3]
+@[5,10]
+
+Przykładowy program na **Arduino**
+
++++
+
+```
 int main(void) {
   init();
   initVariant();
@@ -13,12 +22,13 @@ int main(void) {
   return 0;
 }
 ```
+
 @[1,7-9,11-13]
 
+Napisana za nas funkcja `main()`
 
+---
 
-
----?code=code/blink.ino
 @[1,3](Wnętrze funkcji setup wykona się raz)
 @[5,10](Wnętrze funkcji loop wykonywać się będzie ciągle)
 @[2](pinMode(NR_PINU, INPUT | OUTPUT | INPUT_PULLUP))
