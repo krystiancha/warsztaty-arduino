@@ -27,10 +27,20 @@ int main(void) {
 
 Napisana za nas funkcja `main()`
 
++++?code=code/blink.ino
+
 ---
 
-@[1,3](Wnętrze funkcji setup wykona się raz)
-@[5,10](Wnętrze funkcji loop wykonywać się będzie ciągle)
+```c++
+pinMode(pin, mode)
+```
+
+*pin*: numer pinu (od **0** do **13** oraz od **A0** do **A5**)
+*mode*: **INPUT** (wejście), **OUTPUT** (wyjście) lub **INPUT_PULLUP**
+
+---
+
+
 @[2](pinMode(NR_PINU, INPUT | OUTPUT | INPUT_PULLUP))
 @[6,8](digitalWrite(NR_PINU, LOW | HIGH))
 @[7,9](delay(CZAS_W_MS))
