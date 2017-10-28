@@ -1,5 +1,19 @@
----?code=code/main.cpp
-@[33-34,41-47]
+```c++
+int main(void) {
+  init();
+  initVariant();
+  #if defined(USBCON)
+    USBDevice.attach();
+  #endif
+  setup();
+  for (;;) {
+    loop();
+    if (serialEventRun) serialEventRun();
+  }
+  return 0;
+}
+```
+@[1,7-9,11-13]
 
 
 
