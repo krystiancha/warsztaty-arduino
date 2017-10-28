@@ -37,7 +37,7 @@ Napisana za nas funkcja *main()*
 
 +++?code=code/blink.ino
 
-+++?code=code/lcd.ino
+---?code=code/lcd.ino
 
 @[1]
 @[4]
