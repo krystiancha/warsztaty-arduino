@@ -44,5 +44,3 @@ Napisana za nas funkcja *main()*
 
 
 ---?code=code/gpio.ino
-
-Na podstawie tego przykładowego kodu wykonajcie zadanie 1. z kartki.
