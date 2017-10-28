@@ -16,4 +16,4 @@
 @[13](Wypisujemy aktualny czas)
 
 ---?code=code/gpio.ino
-@[9](digitalRead(NR_PINU))
+@[9](`digitalRead(NR_PINU)`)
