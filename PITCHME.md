@@ -1,27 +1,8 @@
-## Arduino
+---?code=code/main.cpp
+@[33-51]
 
----
 
-### `setup()`
-Funkcja `setup()` wykonywana jest kiedy program startuje
 
-#### Przykład
-```
-int buttonPin = 3;
-
-void setup()
-{
-  Serial.begin(9600);
-  pinMode(buttonPin, INPUT);
-}
-
-void loop()
-{
-  // ...
-}
-```
-
----
 
 ---?code=code/blink.ino
 @[1,3](Wnętrze funkcji setup wykona się raz)
