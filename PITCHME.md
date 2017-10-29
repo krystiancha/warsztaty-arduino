@@ -62,8 +62,8 @@ Jak skompilować i uruchomić program?
 
 Napiszcie program, który będzie działał w następujący sposób:
 
-* przycisk wciśnięty i fotorezystor niezasłoniony => dioda świeci na zielono
+* P wciśnięty i F zasłoniony => D świeci na zielono
 
-* przycisk wciśnięty i fotorezystor zasłoniony => dioda świeci na czerwono
+* P wciśnięty i F zasłoniony => D świeci na czerwono
 
-* w pozostałych przypadkach dioda nie świeci
+* w pozostałych przypadkach D nie świeci
