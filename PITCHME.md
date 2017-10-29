@@ -18,8 +18,13 @@
 
 @[1,3]
 @[5,10]
+@[2]
+@[6]
+@[7]
+@[8]
+@[9]
 
-###### Hello world: Arduino
+###### Hello world: **Arduino**
 
 (mruganie LED)
 
@@ -45,9 +50,18 @@ int main(void) {
 
 Napisana za nas funkcja *main()*
 
----?code=code/digitalReadSerial.ino
+---
 
-@[2]
-@[6]
-@[7]
-@[8]
+## Adruino IDE
+
+Jak skompilować i uruchomić program?
+
+---
+
+## Zadanie 1.
+
+Napiszcie program, który będzie działał w następujący sposób:
+
+* przycisk wciśnięty i fotorezystor niezasłoniony => dioda świeci na zielono
+* przycisk wciśnięty i fotorezystor zasłoniony => dioda świeci na czerwono
+* w pozostałych przypadkach dioda nie świeci
