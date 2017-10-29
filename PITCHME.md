@@ -62,8 +62,8 @@ Jak skompilować i uruchomić program?
 
 Napiszcie program, który będzie działał w następujący sposób:
 
-* P wciśnięty i F zasłoniony => D: zielona
+* *P* **wciśnięty** i *F* **zasłoniony** => *D*: **zielona**
 
-* P wciśnięty i F zasłoniony => D: czerwona
+* *P* **wciśnięty** i *F* **zasłoniony** => *D*: **czerwona**
 
-* w pozostałych przypadkach D nie świeci
+* w pozostałych przypadkach *D* nie świeci
