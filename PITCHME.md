@@ -67,3 +67,7 @@ Napiszcie program, który będzie działał w następujący sposób:
 * *P* **wciśnięty** i *F* **zasłoniony** => *D*: **czerwona**
 
 * w pozostałych przypadkach *D* nie świeci
+
++++?code=task1.ino
+
+#### Przykład rozwiązania
