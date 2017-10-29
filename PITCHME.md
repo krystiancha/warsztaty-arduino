@@ -58,10 +58,12 @@ Jak skompilować i uruchomić program?
 
 ---
 
-## Zadanie 1.
+### Zadanie 1.
 
 Napiszcie program, który będzie działał w następujący sposób:
 
 * przycisk wciśnięty i fotorezystor niezasłoniony => dioda świeci na zielono
+
 * przycisk wciśnięty i fotorezystor zasłoniony => dioda świeci na czerwono
+
 * w pozostałych przypadkach dioda nie świeci
