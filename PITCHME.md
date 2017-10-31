@@ -80,12 +80,12 @@ Jak skompilować i uruchomić program?
 ## Stan wysoki i niski (Arduino UNO)
 
 * wyjścia
-  * HIGH: $$\approx 5\;V$$
-  * LOW: $$\approx 0\;V$$
+  * $$HIGH: \approx 5\;V$$
+  * $$LOW: \approx 0\;V$$
 
 * wejścia
-  * $$ > 3\;V \implies$$ HIGH
-  * $$ < 1,5\;V \implies$$ LOW
+  * $$ > 3\;V \implies HIGH$$
+  * $$ < 1,5\;V \implies LOW$$
 
 ---
 
