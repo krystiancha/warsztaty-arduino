@@ -91,7 +91,9 @@ Jak skompilować i uruchomić program?
 
 ## RGB LED
 
-```c++
+```
+pinMode(TBD, OUTPUT); // ustaw pin TBD jako wyjście
+
 digitalWrite(TBD, HIGH); // zaświeć czerwony
 digitalWrite(TBD, HIGH); // zaświeć zielony
 digitalWrite(TBD, HIGH); // zaświeć niebieski
@@ -105,7 +107,9 @@ digitalWrite(TBD, LOW); // zgaś niebieski
 
 ## Przycisk monostabilny
 
-```c++
+```
+pinMode(TBD, OUTPUT); // ustaw pin TBD jako wejście
+
 int wcisniety = digitalRead(TBD);
 
 if (wcisniety) {
@@ -141,3 +145,22 @@ Napiszcie program, który będzie działał w następujący sposób:
 
 ---
 
+## PWM
+
+```
+pinMode(TBD, OUTPUT); // ustaw pin TBD jako wyjście
+
+analogWrite(TBD, 0); // zgaś czerwony
+analogWrite(TDB, 127); // zaświeć czerwony połową mocy
+analogWrite(TDB, 255); // zaświeć czerwony
+```
+
+## Animacje RGB
+
++++
+
+![](img/RGB_illumination.jpg)
+
++++
+
+![](img/CIExy1931_sRGB_gamut_D65.png)
