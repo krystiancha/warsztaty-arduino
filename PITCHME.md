@@ -6,7 +6,7 @@
 1. Oscyloskop
 1. Stan wysoki i niski
 1. RGB LED
-1. Przycisk
+1. Przycisk monostabilny
 1. Zadanie 1.: prosty program kombinacyjny
 1. PWM
 1. Animacje RGB
@@ -80,12 +80,48 @@ Jak skompilować i uruchomić program?
 ## Stan wysoki i niski (Arduino UNO)
 
 * wyjścia
-  * $$HIGH: \approx 5\;V$$
-  * $$LOW: \approx 0\;V$$
+  * $$HIGH \approx 5\;V$$
+  * $$LOW \approx 0\;V$$
 
 * wejścia
   * $$ > 3\;V \implies HIGH$$
   * $$ < 1,5\;V \implies LOW$$
+  
+---
+
+## RGB LED
+
+```c++
+digitalWrite(TBD, HIGH); // zaświeć czerwony
+digitalWrite(TBD, HIGH); // zaświeć zielony
+digitalWrite(TBD, HIGH); // zaświeć niebieski
+
+digitalWrite(TBD, LOW); // zgaś czerwony
+digitalWrite(TBD, LOW); // zgaś zielony
+digitalWrite(TBD, LOW); // zgaś niebieski
+```
+
+---
+
+## Przycisk monostabilny
+
+```c++
+int wcisniety = digitalRead(TBD);
+
+if (wcisniety) {
+  // wykonaj jeśli przycisk wciśnięty
+} else {
+  // wykonaj jeśli przycisk niewciśnięty
+}
+
+// lub po prostu
+
+if (digitalRead(TBD)) {
+  // wykonaj jeśli przycisk wciśnięty
+} else {
+  // wykonaj jeśli przycisk niewciśnięty
+}
+```
 
 ---
 
