@@ -1,4 +1,19 @@
-## Arduino UNO
+## Plan spotkania
+
+1. Krótko o Arduino UNO
+1. Struktura programu
+1. Arduino IDE
+1. Oscyloskop
+1. Stan wysoki i niski
+1. RGB LED
+1. Przycisk
+1. Zadanie 1.: prosty program kombinacyjny
+1. PWM
+1. Animacje RGB
+1. Zadanie 2.: kolorowe sekwencje
+---
+
+## Krótko o Arduino UNO
 
 ![](img/uno_angle.jpg)
 
@@ -8,7 +23,7 @@
 
 ---
 
-## Hello world
+## Struktura programu
 
 +++?code=code/hello.cpp
 
@@ -58,7 +73,23 @@ Jak skompilować i uruchomić program?
 
 ---
 
-### Zadanie 1.
+## Oscyloskop
+
+---
+
+## Stan wysoki i niski (Arduino UNO)
+
+* wyjścia
+  * HIGH: $$\approx 5\;V$$
+  * LOW: $$\approx 0\;V$$
+
+* wejścia
+  * $$ > 3\;V \implies$$ HIGH
+  * $$ < 1,5\;V \implies$$ LOW
+
+---
+
+## Zadanie 1.
 
 Napiszcie program, który będzie działał w następujący sposób:
 
@@ -71,3 +102,6 @@ Napiszcie program, który będzie działał w następujący sposób:
 +++?code=code/task1.ino
 
 #### Przykład rozwiązania
+
+---
+
