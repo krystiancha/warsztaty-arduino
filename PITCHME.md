@@ -75,6 +75,8 @@ Jak skompilować i uruchomić program?
 
 ## Oscyloskop
 
+![](img/dso_blink.jpg)
+
 ---
 
 ## Stan wysoki i niski (Arduino UNO)
@@ -86,7 +88,19 @@ Jak skompilować i uruchomić program?
 * wejścia
   * $$ > 3\;V \implies HIGH$$
   * $$ < 1,5\;V \implies LOW$$
-  
+
++++
+
+#### Stan wysoki
+
+![](img/dso_high.jpg)
+
++++
+
+#### Stan niski
+
+![](img/dso_low.jpg)
+
 ---
 
 ## RGB LED
