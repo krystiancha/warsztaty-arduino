@@ -79,7 +79,7 @@ Jak skompilować i uruchomić program?
 
 ---
 
-## Stan wysoki i niski (Arduino UNO)
+### Stan wysoki i niski (Arduino UNO)
 
 * wyjścia
   * $$HIGH \approx 5\;V$$
