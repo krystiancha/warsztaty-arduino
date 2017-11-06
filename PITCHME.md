@@ -4,7 +4,7 @@
 1. Struktura programu
 1. Arduino IDE
 1. Oscyloskop
-1. Stan wysoki i niski
+1. HIGH / LOW (Arduino UNO)
 1. RGB LED
 1. Przycisk monostabilny
 1. Zadanie 1.: prosty program kombinacyjny
@@ -79,7 +79,7 @@ Jak skompilować i uruchomić program?
 
 ---
 
-#### Stan wysoki i niski (Arduino UNO)
+## HIGH / LOW (Arduino UNO)
 
 * wyjścia
   * $$HIGH \approx 5\;V$$
@@ -91,13 +91,13 @@ Jak skompilować i uruchomić program?
 
 +++
 
-#### Stan wysoki
+#### Stan wysoki (HIGH)
 
 ![](img/dso_high.png)
 
 +++
 
-#### Stan niski
+#### Stan niski (LOW)
 
 ![](img/dso_low.png)
 
