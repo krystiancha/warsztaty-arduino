@@ -75,7 +75,7 @@ Jak skompilować i uruchomić program?
 
 ## Oscyloskop
 
-![](img/dso_blink.jpg)
+![](img/dso_blink.png)
 
 ---
 
@@ -93,13 +93,13 @@ Jak skompilować i uruchomić program?
 
 #### Stan wysoki
 
-![](img/dso_high.jpg)
+![](img/dso_high.png)
 
 +++
 
 #### Stan niski
 
-![](img/dso_low.jpg)
+![](img/dso_low.png)
 
 ---
 
