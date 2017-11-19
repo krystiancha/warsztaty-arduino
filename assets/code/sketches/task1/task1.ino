@@ -12,11 +12,9 @@ void loop() {
     return;
   }
   long t = digitalRead(8) ? 250 : 125;
-
   digitalWrite(9, HIGH);
   digitalWrite(11, LOW);
   delay(t);
-
   digitalWrite(9, LOW);
   digitalWrite(11, HIGH);
   delay(t);

@@ -30,7 +30,7 @@ Note:
 
 Pokazuje wykres napięcia od czasu
 
-![](assets/img/dso_blink.jpg)
+![](assets/img/dso_blink.png)
 
 Note:
 po co?
@@ -86,7 +86,7 @@ int main(void) {
 
 # Arduino IDE
 
-![](assets/img/ide.jpg)
+![](assets/img/ide.png)
 
 Note:
 - odpal IDE
@@ -120,7 +120,7 @@ Note:
 ## Na płytce:
 
 - B: przycisk "chwilowy" (pin 8)
-- S: przełącznik (pin TBD)
+- S: przełącznik (pin 2)
 - C: wykrywacz klaśnięć (pin 3)
 
 +++
@@ -145,6 +145,8 @@ Jeśli dodatkowo przytrzymamy przycisk **B**, szybkość zmian kolorów zwiększ
 
 +++?code=assets/code/sketches/task1/task1.ino
 
+@[9-20]
+
 ---
 
 # Zadanie 2.
@@ -153,7 +155,10 @@ Poprawcie kod z zadania 1. tak, aby odwrócić role przycisku i przełącznika.
 Przycisk **B** będzie służył do włączania i wyłączania świateł. (pierwsze wciśnięcie: włącz, drugie wciśnięcie: wyłącz)
 Przełącznik **S** będzie natomiast służył do przyspieszania zmian koloru.
 
-+++?code=assets/code/sketches/task2ff/task2.ino
++++?code=assets/code/sketches/task2/task2.ino
+
+@[1-2]
+@[12-29]
 
 ---
 
