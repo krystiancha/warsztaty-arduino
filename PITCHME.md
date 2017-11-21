@@ -9,7 +9,7 @@ Note:
 
 ---
 
-## Arduino UNO
+### Arduino UNO
 
 **Uno**: (*język włoski*) jeden
 
@@ -26,7 +26,7 @@ Note:
         
 ---
 
-## Oscyloskop
+### Oscyloskop
 
 Pokazuje wykres napięcia od czasu
 
@@ -41,7 +41,7 @@ tryb ROLL
 
 ---?code=assets/code/hello.cpp
 
-## Hello World (C++)
+### Hello World (C++)
 
 +++?code=assets/code/sketches/blink/blink.ino
 
@@ -58,7 +58,7 @@ Note:
 - digitalWrite()
 - delay()
 
-## Hello World (Arduino)
+### Hello World (Arduino)
 
 +++
 
@@ -66,9 +66,9 @@ Note:
 int main(void) {
   init();
   initVariant();
-  ##if defined(USBCON)
+  ###if defined(USBCON)
     USBDevice.attach();
-  ##endif
+  ###endif
   setup();
   for (;;) {
     loop();
@@ -80,11 +80,11 @@ int main(void) {
 
 @[1,7-9,11-13]
 
-## Ukryta funkcja `main()`
+### Ukryta funkcja `main()`
 
 +++
 
-## Arduino IDE
+### Arduino IDE
 
 ![](assets/img/ide.png)
 
@@ -95,9 +95,9 @@ Note:
 
 ---
 
-## Wyjścia cyfrowe
+### Wyjścia cyfrowe
 
-### LEDy na płytce
+#### LEDy na płytce
 
 - R: czerwona, dyskretna (pin 7)
 - Y: żółta, dyskretna (pin 12)
@@ -108,16 +108,16 @@ Note:
 
 +++
 
-### sterowanie LEDami
+#### sterowanie LEDami
 
 - włącz: `digitalWrite(pin, HIGH);`
 - wyłącz: `digitalWrite(pin, LOW);`
 
 ---
 
-## Wejścia cyfrowe
+### Wejścia cyfrowe
 
-### Na płytce:
+#### Na płytce:
 
 - B: przycisk "chwilowy" (pin 8)
 - S: przełącznik (pin 2)
@@ -125,7 +125,7 @@ Note:
 
 +++
 
-### Sprawdzanie stanu
+#### Sprawdzanie stanu
 
 `int stan = digitalRead(pin);`
 
@@ -137,7 +137,7 @@ Zmienna stan przyjmie wartość:
 
 ---
 
-## Zadanie 1.
+### Zadanie 1.
 
 Napiszcie program, który będzie naśladował światła policyjne.
 Światła te włączamy przełącznikiem **S**, a po ich włączeniu dioda **RGB** świeci na zmianę na czerwono lub niebiesko. Zmiana koloru na przeciwny następuje po ok. 0.5 s.
@@ -149,7 +149,7 @@ Jeśli dodatkowo przytrzymamy przycisk **B**, szybkość zmian kolorów zwiększ
 
 ---
 
-## Zadanie 2.
+### Zadanie 2.
 
 Poprawcie kod z zadania 1. tak, aby odwrócić role przycisku i przełącznika.
 Przycisk **B** będzie służył do włączania i wyłączania świateł. (pierwsze wciśnięcie: włącz, drugie wciśnięcie: wyłącz)
@@ -162,7 +162,7 @@ Przełącznik **S** będzie natomiast służył do przyspieszania zmian koloru.
 
 ---
 
-## Wyjścia PWM
+### Wyjścia PWM
 
 **PWM**: pulse width modulation, modulacja szerokości impulsu
 
@@ -171,7 +171,7 @@ pokaż PWM na oscyloskopie
 
 +++
 
-### Płynna regulacja jasności świecenia RGB LED
+#### Płynna regulacja jasności świecenia RGB LED
 
 `analogRead(pin, liczba)`
 
@@ -182,7 +182,7 @@ pokaż PWM na oscyloskopie
 
 ---
 
-## Wejścia analogowe
+### Wejścia analogowe
 
 `int odczyt = analogRead(pin);`
 
@@ -193,7 +193,7 @@ pokaż PWM na oscyloskopie
 
 ---
 
-## Zadanie 3.
+### Zadanie 3.
 
 Napiszcie program symulujący lampkę z czujnikiem zmierzchowym.
 Jeśli jest włączona (przełącznikiem **S**), wszystkie kolory diody **RGB** powinny zaświecić się jednocześnie wtedy i tylko wtedy, gdy zasłonimy fotorezystor **F**.
@@ -204,13 +204,13 @@ Można uznać, że fotorezystor jest zasłoniony, gdy napięcie na nim jest rów
 
 ---
 
-## Animacje RGB
+### Animacje RGB
 
 
 
 ---
 
-## Zadanie 4.
+### Zadanie 4.
 
 Zrealizuj w programie animację określoną poniższą funkcją:
 
