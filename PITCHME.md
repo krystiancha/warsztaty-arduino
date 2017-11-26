@@ -242,10 +242,7 @@ daj pobawić się sketchem 3pot
 
 Zrealizuj w programie animację określoną poniższymi funkcjami:
 
-$$
-
-
-r(x) \; = \; f(x)
+$$r(x) \; = \; f(x)$$
 g(x) \; = \; f(x - 2 \cdot 255)
 b(x) \; = \; f(x - 4 \cdot 255)
 $$
