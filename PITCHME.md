@@ -243,14 +243,7 @@ daj pobawić się sketchem 3pot
 Zrealizuj w programie animację określoną poniższymi funkcjami:
 
 $$
-\[
-f(x) =
-\begin{cases}
-x & \text{if } x>0\\
-0 & \text{if } x=0\\
--x& \text{if } x<0
-\end{cases}
-\]
+
 
 r(x) \; = \; f(x)
 g(x) \; = \; f(x - 2 \cdot 255)
