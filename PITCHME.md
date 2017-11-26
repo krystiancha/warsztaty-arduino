@@ -244,3 +244,16 @@ Zrealizuj w programie animację określoną poniższymi funkcjami:
 
 ![Task 4.](assets/img/task4.png)
 
++++
+
+```c++
+int f(double t) {
+  switch ((int)(t / 255) % 6) {
+    case 0:
+      return 255;
+    case 1:
+      return 255 - (int)t % 255;
+    // itd.
+  }
+}
+```
