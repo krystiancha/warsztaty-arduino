@@ -37,7 +37,7 @@ po co?
 - bardzo szybkie sygnały
 - zrozumienie/"czucie" obwodu
 - naprawianie urządzeń
-tryb ROLL
+pokaż sygnał audio
 
 ---?code=assets/code/hello.cpp
 
@@ -140,7 +140,7 @@ Zmienna stan przyjmie wartość:
 ### Zadanie 1.
 
 Napiszcie program, który będzie naśladował światła policyjne.
-Światła te włączamy przełącznikiem **S**, a po ich włączeniu dioda **RGB** świeci na zmianę na czerwono lub niebiesko. Zmiana koloru na przeciwny następuje po ok. 0.5 s.
+Światła te włączamy przełącznikiem **S**, a po ich włączeniu dioda **RGB** świeci na zmianę na czerwono lub niebiesko. Zmiana koloru na przeciwny następuje po ok. 0.25 s.
 Jeśli dodatkowo przytrzymamy przycisk **B**, szybkość zmian kolorów zwiększa się dwukrotnie.
 
 +++?code=assets/code/sketches/task1/task1.ino
@@ -167,13 +167,13 @@ Przełącznik **S** będzie natomiast służył do przyspieszania zmian koloru.
 **PWM**: pulse width modulation, modulacja szerokości impulsu
 
 Note:
-pokaż PWM na oscyloskopie
+pokaż PWM na oscyloskopie (sketch pwmdemo)
 
 +++
 
 #### Płynna regulacja jasności świecenia RGB LED
 
-`analogRead(pin, liczba)`
+`analogWrite(pin, liczba)`
 
 `liczba` może przyjmować wartości:
 - od 0 (dioda nie świeci, jak `LOW`)
@@ -206,7 +206,32 @@ Można uznać, że fotorezystor jest zasłoniony, gdy napięcie na nim jest rów
 
 ### Animacje RGB
 
+![](assets/img/RGB_illumination.jpg)
 
+Note:
+daj pobawić się sketchem 3pot 
+
++++
+
+#### Koło kolorów RGB
+
+![](assets/img/rgb-color-wheel-lg.jpg)
+
++++
+<!-- .slide: data-background-transition="none" -->
+![0](assets/img/rgb/0.png)
++++
+<!-- .slide: data-background-transition="none" -->
+![1](assets/img/rgb/1.png)
++++
+<!-- .slide: data-background-transition="none" -->
+![2](assets/img/rgb/2.png)
++++
+<!-- .slide: data-background-transition="none" -->
+![3](assets/img/rgb/3.png)
++++
+<!-- .slide: data-background-transition="none" -->
+![4](assets/img/rgb/4.png)
 
 ---
 
