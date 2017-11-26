@@ -99,19 +99,19 @@ Note:
 
 #### LEDy na płytce
 
-- R: czerwona, dyskretna (pin 7)
-- Y: żółta, dyskretna (pin 12)
-- RGB: 3 diody w jednej
-    - RGBr: czerwona (pin 9)
-    - RGBg: zielona (pin 10)
-    - RGBb: niebieska (pin 11)
+- R: czerwona, dyskretna (pin 7)    |
+- Y: żółta, dyskretna (pin 12)      |
+- RGB: 3 diody w jednej             |
+    - RGBr: czerwona (pin 9)        |
+    - RGBg: zielona (pin 10)        |
+    - RGBb: niebieska (pin 11)      |
 
 +++
 
 #### sterowanie LEDami
 
-- włącz: `digitalWrite(pin, HIGH);`
-- wyłącz: `digitalWrite(pin, LOW);`
+- włącz: `digitalWrite(pin, HIGH);` |
+- wyłącz: `digitalWrite(pin, LOW);` |
 
 ---
 
@@ -119,9 +119,9 @@ Note:
 
 #### Na płytce:
 
-- B: przycisk "chwilowy" (pin 8)
-- S: przełącznik (pin 2)
-- C: wykrywacz klaśnięć (pin 3)
+- B: przycisk "chwilowy" (pin 8)    |
+- S: przełącznik (pin 2)            |
+- C: wykrywacz klaśnięć (pin 3)     |
 
 +++
 
@@ -131,9 +131,9 @@ Note:
 
 Zmienna stan przyjmie wartość:
 - `HIGH`, gdy czujnik jest nieaktywny
-    - np. przycisk nie jest wciśnięty
+    - np. przycisk nie jest wciśnięty   |
 - `LOW`, gdy czujnik jest aktywny
-    - np. przycisk jest wciśnięty
+    - np. przycisk jest wciśnięty       |
 
 ---
 
@@ -145,7 +145,7 @@ Jeśli dodatkowo przytrzymamy przycisk **B**, szybkość zmian kolorów zwiększ
 
 +++?code=assets/code/sketches/task1/task1.ino
 
-@[9-20]
+@[8-21]
 
 ---
 
@@ -176,9 +176,9 @@ pokaż PWM na oscyloskopie (sketch pwmdemo)
 `analogWrite(pin, liczba)`
 
 `liczba` może przyjmować wartości:
-- od 0 (dioda nie świeci, jak `LOW`)
-- poprzez 127 (dioda świeci połową mocy)
-- do 255 (dioda świeci całą mocą, jak `HIGH`)
+- od 0 (dioda nie świeci, jak `LOW`)            |
+- poprzez 127 (dioda świeci połową mocy)        |
+- do 255 (dioda świeci całą mocą, jak `HIGH`)   |
 
 ---
 
@@ -187,9 +187,9 @@ pokaż PWM na oscyloskopie (sketch pwmdemo)
 `int odczyt = analogRead(pin);`
 
 `odczyt` przyjmie wartość:
-- 0, jeśli napięcie jest bliskie 0 V
-- 511, jeśli napięcie jest bliskie 2,5 V
-- 1023, jeśli napięcie jest bliskie 5 V
+- 0, jeśli napięcie jest bliskie 0 V        |
+- 511, jeśli napięcie jest bliskie 2,5 V    |
+- 1023, jeśli napięcie jest bliskie 5 V     |
 
 ---
 
@@ -232,11 +232,27 @@ daj pobawić się sketchem 3pot
 +++
 <!-- .slide: data-background-transition="none" -->
 ![4](assets/img/rgb/4.png)
++++
+<!-- .slide: data-background-transition="none" -->
+![5](assets/img/rgb/5.png)
 
 ---
 
 ### Zadanie 4.
 
-Zrealizuj w programie animację określoną poniższą funkcją:
+Zrealizuj w programie animację określoną poniższymi funkcjami:
 
-TODO MATH
+$$
+\[
+f(x) =
+\begin{cases}
+x & \text{if } x>0\\
+0 & \text{if } x=0\\
+-x& \text{if } x<0
+\end{cases}
+\]
+
+r(x) \; = \; f(x)
+g(x) \; = \; f(x - 2 \cdot 255)
+b(x) \; = \; f(x - 4 \cdot 255)
+$$
