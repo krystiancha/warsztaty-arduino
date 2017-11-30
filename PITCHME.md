@@ -24,6 +24,9 @@ Note:
     - do 20 Mhz                 |
         - w Arduino UNO: 16 Mhz |
         
+Note:
+- porównaj do CPU w PC
+        
 ---
 
 ### Oscyloskop
@@ -99,7 +102,7 @@ Note:
 
 #### LEDy na płytce
 
-- R: czerwona, dyskretna (pin 7)    |
+- R: czerwona, dyskretna (pin 7)
 - Y: żółta, dyskretna (pin 12)      |
 - RGB: 3 diody w jednej             |
     - RGBr: czerwona (pin 9)        |
@@ -110,7 +113,7 @@ Note:
 
 #### sterowanie LEDami
 
-- włącz: `digitalWrite(pin, HIGH);` |
+- włącz: `digitalWrite(pin, HIGH);`
 - wyłącz: `digitalWrite(pin, LOW);` |
 
 ---
@@ -119,7 +122,7 @@ Note:
 
 #### Na płytce:
 
-- B: przycisk "chwilowy" (pin 8)    |
+- B: przycisk "chwilowy" (pin 8)
 - S: przełącznik (pin 2)            |
 - C: wykrywacz klaśnięć (pin 3)     |
 
@@ -132,7 +135,7 @@ Note:
 Zmienna stan przyjmie wartość:
 - `HIGH`, gdy czujnik jest nieaktywny
     - np. przycisk nie jest wciśnięty   |
-- `LOW`, gdy czujnik jest aktywny
+- `LOW`, gdy czujnik jest aktywny       |
     - np. przycisk jest wciśnięty       |
 
 ---
@@ -167,6 +170,7 @@ Przełącznik **S** będzie natomiast służył do przyspieszania zmian koloru.
 **PWM**: pulse width modulation, modulacja szerokości impulsu
 
 Note:
+PWM przy ściemnianiu wyświetlacza
 pokaż PWM na oscyloskopie (sketch pwmdemo)
 
 +++
@@ -240,19 +244,19 @@ daj pobawić się sketchem 3pot
 
 ### Zadanie 4.
 
-Zrealizuj w programie animację określoną poniższymi funkcjami:
+Zrealizuj w programie animację określoną funkcjami:
 
 ![Task 4.](assets/img/task4.png)
 
 +++
 
 ```c++
-int f(double t) {
-  switch ((int)(t / 255) % 6) {
+int f(double x) {
+  switch ((int)(x / 255) % 6) {
     case 0:
       return 255;
     case 1:
-      return 255 - (int)t % 255;
+      return 255 - (int)x % 255;
     // itd.
   }
 }
