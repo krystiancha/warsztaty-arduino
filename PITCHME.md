@@ -114,7 +114,7 @@ Note:
 #### sterowanie LEDami
 
 - włącz: `digitalWrite(pin, HIGH);`
-- wyłącz: `digitalWrite(pin, LOW);` |
+- wyłącz: `digitalWrite(pin, LOW);`
 
 ---
 
@@ -134,9 +134,9 @@ Note:
 
 Zmienna stan przyjmie wartość:
 - `HIGH`, gdy czujnik jest nieaktywny
-    - np. przycisk nie jest wciśnięty   |
-- `LOW`, gdy czujnik jest aktywny       |
-    - np. przycisk jest wciśnięty       |
+    - np. przycisk nie jest wciśnięty
+- `LOW`, gdy czujnik jest aktywny
+    - np. przycisk jest wciśnięty
 
 ---
 
@@ -180,9 +180,9 @@ pokaż PWM na oscyloskopie (sketch pwmdemo)
 `analogWrite(pin, liczba)`
 
 `liczba` może przyjmować wartości:
-- od 0 (dioda nie świeci, jak `LOW`)            |
-- poprzez 127 (dioda świeci połową mocy)        |
-- do 255 (dioda świeci całą mocą, jak `HIGH`)   |
+- od 0 (dioda nie świeci, jak `LOW`)
+- poprzez 127 (dioda świeci połową mocy)
+- do 255 (dioda świeci całą mocą, jak `HIGH`)
 
 ---
 
@@ -221,24 +221,18 @@ daj pobawić się sketchem 3pot
 
 ![](assets/img/rgb-color-wheel-lg.jpg)
 
-+++
++++?image=assets/img/rgb/0.png
 <!-- .slide: data-background-transition="none" -->
-![0](assets/img/rgb/0.png)
-+++
++++?image=assets/img/rgb/1.png
 <!-- .slide: data-background-transition="none" -->
-![1](assets/img/rgb/1.png)
-+++
++++?image=assets/img/rgb/2.png
 <!-- .slide: data-background-transition="none" -->
-![2](assets/img/rgb/2.png)
-+++
++++?image=assets/img/rgb/3.png
 <!-- .slide: data-background-transition="none" -->
-![3](assets/img/rgb/3.png)
-+++
++++?image=assets/img/rgb/4.png
 <!-- .slide: data-background-transition="none" -->
-![4](assets/img/rgb/4.png)
-+++
++++?image=assets/img/rgb/5.png
 <!-- .slide: data-background-transition="none" -->
-![5](assets/img/rgb/5.png)
 
 ---
 
