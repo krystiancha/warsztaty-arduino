@@ -223,15 +223,15 @@ daj pobawić się sketchem 3pot
 
 +++?image=assets/img/rgb/0.png&size=contain
 <!-- .slide: data-background-transition="none" -->
-+++?image=assets/img/rgb/1.png
++++?image=assets/img/rgb/1.png&size=contain
 <!-- .slide: data-background-transition="none" -->
-+++?image=assets/img/rgb/2.png
++++?image=assets/img/rgb/2.png&size=contain
 <!-- .slide: data-background-transition="none" -->
-+++?image=assets/img/rgb/3.png
++++?image=assets/img/rgb/3.png&size=contain
 <!-- .slide: data-background-transition="none" -->
-+++?image=assets/img/rgb/4.png
++++?image=assets/img/rgb/4.png&size=contain
 <!-- .slide: data-background-transition="none" -->
-+++?image=assets/img/rgb/5.png
++++?image=assets/img/rgb/5.png&size=contain
 <!-- .slide: data-background-transition="none" -->
 
 ---
