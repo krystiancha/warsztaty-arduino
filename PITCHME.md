@@ -221,7 +221,7 @@ daj pobawić się sketchem 3pot
 
 ![](assets/img/rgb-color-wheel-lg.jpg)
 
-+++?image=assets/img/rgb/0.png
++++?image=assets/img/rgb/0.png&size=contain
 <!-- .slide: data-background-transition="none" -->
 +++?image=assets/img/rgb/1.png
 <!-- .slide: data-background-transition="none" -->
