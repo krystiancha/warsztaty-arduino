@@ -59,23 +59,23 @@ void loop() {
 * **CW** - clockwise (*zgodnie z ruchem wskazówek zegara*); **CCW** - counterclockwise (*przeciwnie do ruchu wskazówek zegara*)
 
 # Wybrane funkcje
-#### `pinMode(int pin, bool tryb)`
+#### `pinMode(pin, tryb)`
 Ustaw dany pin w tryb wyjścia `OUTPUT` lub wejścia `INPUT`.
-#### `digitalWrite(int pin, bool stan)`
+#### `digitalWrite(pin, stan)`
 Ustaw stan niski `LOW` lub wysoki `HIGH` na danym pinie.
-#### `delay(long ms)`
+#### `delay(ms)`
 Zaczekaj daną liczbę milisekund.
-#### `digitalRead(int pin)`
+#### `digitalRead(pin)`
 Odczytaj stan danego pinu. Zwraca `HIGH` lub `LOW`.
-#### `analogWrite(int pin, int wyp)`
+#### `analogWrite(pin, wyp)`
 Wyprowadza sygnał PWM na danym pinie.
 
 Parametr *wyp* może przyjmować wartości:
  
-od 0 (wypełnienie 0%, równoważne `digitalWrite(int pin, LOW)`)
+od 0 (wypełnienie 0%, równoważne `digitalWrite(pin, LOW)`)
 
-do 255 (wypełnienie 100%, równoważne `digitalWrite(int pin, HIGH)`).
-#### `analogRead(int pin)`
+do 255 (wypełnienie 100%, równoważne `digitalWrite(pin, HIGH)`).
+#### `analogRead(pin)`
 Odczytuje napięcie na danym pinie.
 
 Zwraca wartości:
