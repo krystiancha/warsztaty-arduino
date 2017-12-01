@@ -83,3 +83,5 @@ Zwraca wartości:
 od 0 (~0V)
 
 do 1023 (~5V)
+#### `millis()`
+Zwraca liczbę milisekund, które upłynęły od uruchomienia programu.
