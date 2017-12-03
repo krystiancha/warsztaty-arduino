@@ -11,6 +11,12 @@ Note:
 
 ### Krystian Chachuła
 
+**Automatyka i Robotyka**
+
+na wydziale Elektroniki i Technik Informacyjnych
+
+Politechniki Warszawskiej
+
 - [krystiancha@gmail.com](mailto:krystiancha@gmail.com)
 - [github.com/protecto](https://github.com/protecto)
 
