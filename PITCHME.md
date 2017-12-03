@@ -239,7 +239,7 @@ Można uznać, że fotorezystor jest zasłoniony, gdy napięcie na nim jest rów
 
 ![](assets/img/RGB_illumination.jpg)
 
-Źródło: https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg
+<span class="source">Źródło: https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg</span>
 
 Note:
 daj pobawić się sketchem 3pot
@@ -250,7 +250,7 @@ daj pobawić się sketchem 3pot
 
 ![](assets/img/rgb-color-wheel-lg.jpg)
 
-Żródło: http://dawnsbrain.com/the-rgb-color-wheel/
+<span class="source">Źródło: http://dawnsbrain.com/the-rgb-color-wheel/</source>
 
 +++?image=assets/img/rgb/0.png&size=contain
 <!-- .slide: data-background-transition="none" -->
