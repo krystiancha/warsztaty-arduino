@@ -5,7 +5,7 @@ Wstęp do IoT na przykładzie Arduino UNO
 ![](assets/img/uno_angle.jpg)
 
 Note:
-2 urządzenia: UNO i oscyloskop
+- 2 urządzenia: UNO i oscyloskop
 
 ---
 
@@ -25,7 +25,7 @@ Note:
         - w Arduino UNO: 16 Mhz |
         
 Note:
-- porównaj do CPU w PC
+- porównaj do CPU w PC (zegar)
         
 ---
 
@@ -36,15 +36,20 @@ Pokazuje wykres napięcia od czasu
 ![](assets/img/dso_blink.png)
 
 Note:
-po co?
-- bardzo szybkie sygnały
-- zrozumienie/"czucie" obwodu
-- naprawianie urządzeń
-pokaż sygnał audio
+- dmm vs dso
+- po co?
+    - bardzo szybkie sygnały
+    - zrozumienie/"czucie" obwodu
+    - naprawianie urządzeń
+- pokaż sygnał audio
+- pokaż zegar
 
 ---?code=assets/code/hello.cpp
 
 ### Hello World (C++)
+
+Note:
+- coś innego za pomocą tego, co już umiecie
 
 +++?code=assets/code/sketches/blink/blink.ino
 
@@ -56,12 +61,12 @@ pokaż sygnał audio
 @[8]
 @[9]
 
+### Hello World (Arduino)
+
 Note:
 - HIGH/LOW
 - digitalWrite()
 - delay()
-
-### Hello World (Arduino)
 
 +++
 
@@ -93,6 +98,7 @@ int main(void) {
 
 Note:
 - odpal IDE
+- wczytaj skecz (programy to skecze)
 - wybierz port
 - skompiluj i uruchom
 
@@ -137,6 +143,9 @@ Zmienna stan przyjmie wartość:
     - np. przycisk nie jest wciśnięty
 - `LOW`, gdy czujnik jest aktywny
     - np. przycisk jest wciśnięty
+    
+Note:
+- odwrotnie niż intuicyjnie
 
 ---
 
@@ -145,6 +154,14 @@ Zmienna stan przyjmie wartość:
 Napiszcie program, który będzie naśladował światła policyjne.
 Światła te włączamy przełącznikiem **S**, a po ich włączeniu dioda **RGB** świeci na zmianę na czerwono lub niebiesko. Zmiana koloru na przeciwny następuje po ok. 0.25 s.
 Jeśli dodatkowo przytrzymamy przycisk **B**, szybkość zmian kolorów zwiększa się dwukrotnie.
+
+Note:
+- zanim uruchomić, skompilować, przetestować w głowie
+- jakich pinów będziemy używać? B(8) S(2) RGBr(9) RGBb(11)
+- jak będzie wyglądał warunek? digitalRead(2)
+- co ma dziać się gdy jest wyłączony? LOW na oba kolory
+- jak wygląda mruganie diodami na zmianę? 9H 11L delay 9L 11H
+- jak modyfikować czas delaya? d = war ? 250 : 125
 
 +++?code=assets/code/sketches/task1/task1.ino
 
@@ -157,6 +174,10 @@ Jeśli dodatkowo przytrzymamy przycisk **B**, szybkość zmian kolorów zwiększ
 Poprawcie kod z zadania 1. tak, aby odwrócić role przycisku i przełącznika.
 Przycisk **B** będzie służył do włączania i wyłączania świateł. (pierwsze wciśnięcie: włącz, drugie wciśnięcie: wyłącz)
 Przełącznik **S** będzie natomiast służył do przyspieszania zmian koloru.
+
+Note:
+- co trzeba dodać? pamięć do wykrywania zbocza
+    - dwie zmienne-
 
 +++?code=assets/code/sketches/task2/task2.ino
 

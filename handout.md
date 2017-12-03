@@ -21,7 +21,7 @@ void loop() {
 ## Wyjścia
 
 **Uwaga!** Aby korzystać z pinu jako wyjścia należy ustawić go w tryb `OUTPUT` używając funkcji 
-`pinMode(int pin, OUTPUT)`
+`pinMode(pin, OUTPUT)`
 
 ### Cyfrowe
 | Nazwa                 | Symbol    | Pin   | gdy HIGH      | gdy LOW       |
@@ -42,7 +42,7 @@ void loop() {
 ## Wejścia
 
 **Uwaga!** Aby korzystać z pinu jako wejścia należy ustawić go w tryb `INPUT` używając funkcji 
-`pinMode(int pin, INPUT)`
+`pinMode(pin, INPUT)`
 
 ### Cyfrowe
 | Nazwa                     | Symbol    | Pin   | HIGH, gdy             | LOW, gdy              |

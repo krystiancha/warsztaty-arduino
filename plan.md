@@ -2,7 +2,7 @@
     1. Arduino
     1. ATmega328P
 1. Oscyloskop
-    1. Tryb roll
+    1. Multimetr vs oscyloskop
     1. Tryb YT
 1. Hello World
     1. C++ vs Arduino
