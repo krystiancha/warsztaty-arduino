@@ -9,6 +9,13 @@ Note:
 
 ---
 
+### Krystian Chachuła
+
+- [krystiancha@gmail.com](mailto:krystiancha@gmail.com)
+- [github.com/protecto](https://github.com/protecto)
+
+---
+
 ### Arduino UNO
 
 **Uno**: (*język włoski*) jeden
