@@ -287,7 +287,13 @@ int f(double x) {
 }
 ```
 
+---
+
 ### Źródła
+
+Tę prezentację można znaleźć pod adresem:
+
+http://gitpitch.com/protecto/warsztaty-arduino
 
 - [ATmega328](http://www.microchip.com/wwwproducts/en/ATmega328)
 - [Arduino Language Reference](https://www.arduino.cc/reference/en/)
