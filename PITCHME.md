@@ -15,6 +15,9 @@ Note:
 
 ![](assets/img/uno.jpg)
 
+Note:
+- z okazji udostępnienia środowiska Arduino IDE 1.0
+
 +++
 
 - mikrokontroler **ATmega328P**
@@ -90,6 +93,9 @@ int main(void) {
 
 ### Ukryta funkcja `main()`
 
+Note:
+- co to for(;;)?
+
 +++
 
 ### Arduino IDE
@@ -151,7 +157,7 @@ Note:
 
 ### Zadanie 1.
 
-Napiszcie program, który będzie naśladował światła policyjne.
+Napiszcie program, który będzie naśladował światła pojazdu uprzywilejowanego na początku lub końcu kolumny.
 Światła te włączamy przełącznikiem **S**, a po ich włączeniu dioda **RGB** świeci na zmianę na czerwono lub niebiesko. Zmiana koloru na przeciwny następuje po ok. 0.25 s.
 Jeśli dodatkowo przytrzymamy przycisk **B**, szybkość zmian kolorów zwiększa się dwukrotnie.
 
@@ -233,14 +239,18 @@ Można uznać, że fotorezystor jest zasłoniony, gdy napięcie na nim jest rów
 
 ![](assets/img/RGB_illumination.jpg)
 
+Źródło: https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg
+
 Note:
-daj pobawić się sketchem 3pot 
+daj pobawić się sketchem 3pot
 
 +++
 
 #### Koło kolorów RGB
 
 ![](assets/img/rgb-color-wheel-lg.jpg)
+
+Żródło: http://dawnsbrain.com/the-rgb-color-wheel/
 
 +++?image=assets/img/rgb/0.png&size=contain
 <!-- .slide: data-background-transition="none" -->
@@ -276,3 +286,10 @@ int f(double x) {
   }
 }
 ```
+
+### Źródła
+
+- [ATmega328](http://www.microchip.com/wwwproducts/en/ATmega328)
+- [Arduino Language Reference](https://www.arduino.cc/reference/en/)
+- [obr. kolory na ścianie](https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg)
+- [obr. Koło RGB](http://dawnsbrain.com/the-rgb-color-wheel/)
