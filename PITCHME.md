@@ -27,14 +27,19 @@ Note:
 
 +++
 
+#### ATmega328P
+
 ![](assets/img/ATMEGA328P-PU.jpg)
 
-- mikrokontroler **ATmega328P**
-    - 14 cyfrowych wejść/wyjść  |
-        - w tym 6 PWM           |
-    - 6 analogowych wejść       |
-    - do 20 Mhz                 |
-        - w Arduino UNO: 16 Mhz |
++++
+
+#### mikrokontroler **ATmega328P**
+
+- 14 cyfrowych wejść/wyjść
+    - w tym 6 PWM           |
+- 6 analogowych wejść       |
+- do 20 Mhz                 |
+    - w Arduino UNO: 16 Mhz |
 
 Note:
 - porównaj do CPU w PC (zegar)
@@ -306,5 +311,3 @@ http://gitpitch.com/protecto/warsztaty-arduino
 
 - [ATmega328](http://www.microchip.com/wwwproducts/en/ATmega328)
 - [Arduino Language Reference](https://www.arduino.cc/reference/en/)
-- [obr. kolory na ścianie](https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg)
-- [obr. Koło RGB](http://dawnsbrain.com/the-rgb-color-wheel/)
