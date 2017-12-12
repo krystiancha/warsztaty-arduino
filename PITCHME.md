@@ -27,7 +27,7 @@ Note:
 
 +++
 
-#### ATmega328P
+#### mikrokontroler **ATmega328P**
 
 ![](assets/img/ATMEGA328P-PU.jpg)
 
