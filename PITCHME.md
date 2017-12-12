@@ -27,16 +27,18 @@ Note:
 
 +++
 
+![](assets/img/ATMEGA328P-PU.jpg)
+
 - mikrokontroler **ATmega328P**
     - 14 cyfrowych wejść/wyjść  |
         - w tym 6 PWM           |
     - 6 analogowych wejść       |
     - do 20 Mhz                 |
         - w Arduino UNO: 16 Mhz |
-        
+
 Note:
 - porównaj do CPU w PC (zegar)
-        
+
 ---
 
 ### Oscyloskop
@@ -156,7 +158,7 @@ Zmienna stan przyjmie wartość:
     - np. przycisk nie jest wciśnięty
 - `LOW`, gdy czujnik jest aktywny
     - np. przycisk jest wciśnięty
-    
+
 Note:
 - odwrotnie niż intuicyjnie
 
@@ -238,7 +240,7 @@ Jeśli jest włączona (przełącznikiem **S**), wszystkie kolory diody **RGB** 
 
 Note:
 Wskazówka:
-Można uznać, że fotorezystor jest zasłoniony, gdy napięcie na nim jest równe ok. 2,5 V. 
+Można uznać, że fotorezystor jest zasłoniony, gdy napięcie na nim jest równe ok. 2,5 V.
 
 ---
 
