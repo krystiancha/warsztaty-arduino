@@ -11,12 +11,6 @@ Note:
 
 ### Krystian Chachuła
 
-**Automatyka i Robotyka**
-
-na wydziale Elektroniki i Technik Informacyjnych
-
-Politechniki Warszawskiej
-
 - [krystiancha@gmail.com](mailto:krystiancha@gmail.com)
 - [github.com/protecto](https://github.com/protecto)
 
@@ -306,7 +300,7 @@ Tę prezentację można znaleźć pod adresem:
 
 http://gitpitch.com/protecto/warsztaty-arduino
 
-### Źródła
+##### Źródła:
 
 - [ATmega328](http://www.microchip.com/wwwproducts/en/ATmega328)
 - [Arduino Language Reference](https://www.arduino.cc/reference/en/)
