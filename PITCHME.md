@@ -268,8 +268,11 @@ daj pobawić się sketchem 3pot
 
 +++
 
-+++?image=assets/img/HSV-RGB-comparison.svg
-<span class="source">Źródło: https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg</span>
++++
+
+![](assets/img/HSV-RGB-comparison.svg)
+
+<span class="source">Źródło: https://en.wikipedia.org/wiki/HSL_and_HSV#/media/File:HSV-RGB-comparison.svg</span>
 
 +++?image=assets/img/rgb/0.png&size=contain
 <!-- .slide: data-background-transition="none" -->
