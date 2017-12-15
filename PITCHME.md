@@ -266,6 +266,11 @@ daj pobawić się sketchem 3pot
 
 <span class="source">Źródło: http://dawnsbrain.com/the-rgb-color-wheel/</source>
 
++++
+
++++?image=assets/img/HSV-RGB-comparison.svg
+<span class="source">Źródło: https://commons.wikimedia.org/wiki/File:RGB_illumination.jpg</span>
+
 +++?image=assets/img/rgb/0.png&size=contain
 <!-- .slide: data-background-transition="none" -->
 +++?image=assets/img/rgb/1.png&size=contain
