@@ -26,6 +26,3 @@
 1. Zadanie 3.
 1. Opisywanie animacji funkcjami matematycznymi
 1. Zadanie 4.
-    1. dwa kolory, stała szybkość animacji
-    1. dwa kolory, nastawna szybkość animacji
-    1. trzy kolory, nastawna szybkość animacji

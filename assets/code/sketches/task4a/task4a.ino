@@ -22,6 +22,7 @@ void setup() {
   pinMode(10, OUTPUT);
   pinMode(11, OUTPUT);
   pinMode(A3, INPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -30,6 +31,7 @@ void loop() {
   } else {
     t += analogRead(A3) / 100.0;
   }
+  Serial.println(f(t));
   analogWrite(9, f(t));
   analogWrite(10, f(t + 4 * 255));
   analogWrite(11, f(t + 2 * 255));

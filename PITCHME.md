@@ -16,6 +16,19 @@ Note:
 
 ---
 
+### Plan
+
+1. Arduino UNO
+1. Oscyloskop
+1. Hello World
+1. Wyjścia cyfrowe
+1. Wejścia cyfrowe
+1. Wyjścia PWM
+1. Wejścia analogowe
+1. Animacje RGB
+
+---
+
 ### Arduino UNO
 
 **Uno**: (*język włoski*) jeden
@@ -202,7 +215,8 @@ Note:
 +++?code=assets/code/sketches/task2/task2.ino
 
 @[1-2]
-@[12-29]
+@[12-16]
+@[16-29]
 
 ---
 
