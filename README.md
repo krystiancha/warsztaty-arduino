@@ -1,2 +1,5 @@
-# warsztaty-arduino
-This project is experimental/personal, so use at your own risk.
+# Wstęp do IoT na przykładzie Arduino UNO
+
+Prezentacja znajduje się pod adresem:
+
+https://gitpitch.com/protecto/warsztaty-arduino
